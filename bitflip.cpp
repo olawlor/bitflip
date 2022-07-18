@@ -1,4 +1,7 @@
-/* A tiny UNIXy utility to check for RAM errors at runtime. */
+/* A tiny UNIXy utility to check for RAM errors at runtime. 
+
+Dr. Orion Lawlor, lawlor@alaska.edu, 2020-09-26 (Public Domain)
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -23,7 +26,7 @@ private:
     size_t buffer_size;
     std::vector<check_t> buffer;
 
-// We check the buffer in small chunks (to spread b our CPU usage)
+// We check the buffer in small chunks (to spread out our CPU usage)
     size_t chunk_start;
     size_t chunk_index;
     enum { CHUNK_SIZE=1024*1024/sizeof(check_t)/PATTERN_SIZE*PATTERN_SIZE };
