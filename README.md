@@ -30,6 +30,6 @@ This was a bitflip from 1 to 0. It took *months* for this to happen while watchi
 
 I have been watching 2GB of a Raspberry Pi 4's RAM for several years with no detected bit flips.
 
-If the program detects any RAM mismatches for you, please mail the output and your brief hardware info to mailto:lawlor@alaska.edu because I'm curious about their statistics.  (Particularly, the frequency of multi-bit errors.)
+If the program detects any RAM mismatches for you, please mail the output and your brief hardware info to me at lawlor@alaska.edu because I'm curious about their statistics.  (Particularly, the frequency of multi-bit errors.)
 
 
